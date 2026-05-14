@@ -1,0 +1,22 @@
+# Telegram Bot
+aiogram==3.15.0
+
+# LLM Orchestration
+langchain==0.3.14
+langchain-openai==0.3.0
+langgraph==0.2.60
+
+# Google Calendar API
+google-api-python-client==2.159.0
+google-auth-oauthlib==1.2.1
+google-auth-httplib2==0.2.0
+
+# Data Validation
+pydantic==2.10.4
+
+# Timezone & Date Handling
+pytz==2024.2
+python-dateutil==2.9.0.post0
+
+# Environment Variables
+python-dotenv==1.0.1
