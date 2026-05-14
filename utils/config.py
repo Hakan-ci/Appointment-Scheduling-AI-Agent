@@ -5,7 +5,7 @@ Centralized configuration — loads .env and exposes typed settings.
 import os
 from dotenv import load_dotenv
 
-load_dotenv()
+load_dotenv(override=True)
 
 
 # ── Telegram ──────────────────────────────────────────────

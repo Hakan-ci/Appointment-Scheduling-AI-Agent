@@ -45,7 +45,7 @@ def run_oauth_flow() -> None:
     with open(GOOGLE_TOKEN_PATH, "w") as token_file:
         token_file.write(credentials.to_json())
 
-    print(f"✅ Authorization successful! Token saved to '{GOOGLE_TOKEN_PATH}'.")
+    print(f"[OK] Authorization successful! Token saved to '{GOOGLE_TOKEN_PATH}'.")
 
 
 if __name__ == "__main__":

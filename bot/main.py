@@ -146,7 +146,7 @@ async def handle_message(message: types.Message) -> None:
 
 async def main() -> None:
     """Start the bot with long-polling."""
-    logger.info("🚀 Bot is starting...")
+    logger.info("Bot is starting...")
 
     dp = Dispatcher()
     dp.include_router(router)
