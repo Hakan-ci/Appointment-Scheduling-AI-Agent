@@ -225,5 +225,5 @@ All settings are centralized in `utils/config.py`:
 
 
 <p align="center">
-  Built with ❤️ using LangGraph, GPT-4o-mini & Google Calendar API
+  Built with using LangGraph, GPT-4o-mini & Google Calendar API
 </p>
